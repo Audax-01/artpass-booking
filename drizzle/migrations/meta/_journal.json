@@ -1,0 +1,13 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1795232025061,
+      "tag": "0000_museum_booking",
+      "breakpoints": true
+    }
+  ]
+}

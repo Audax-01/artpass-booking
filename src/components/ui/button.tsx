@@ -9,19 +9,28 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-primary text-primary-foreground shadow hover:bg-primary/90",
-        destructive: "bg-destructive text-destructive-foreground shadow-sm hover:bg-destructive/90",
+        default:
+          "rounded-full bg-primary text-primary-foreground uppercase tracking-wide hover:bg-primary/85",
+        destructive:
+          "rounded-full bg-destructive text-destructive-foreground hover:bg-destructive/90",
         outline:
-          "border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground",
-        secondary: "bg-secondary text-secondary-foreground shadow-sm hover:bg-secondary/80",
-        ghost: "hover:bg-accent hover:text-accent-foreground",
-        link: "text-primary underline-offset-4 hover:underline",
+          "rounded-full border border-foreground/60 bg-transparent text-foreground uppercase tracking-wide hover:bg-foreground hover:text-background",
+        secondary: "rounded-full bg-secondary text-secondary-foreground hover:bg-secondary/85",
+        cream:
+          "rounded-full bg-cream text-ink uppercase tracking-wide hover:bg-cream/85",
+        ghost: "hover:bg-foreground/10",
+        google:
+          "rounded-full border border-google-border bg-google-surface text-google-text font-medium [font-family:'Google_Sans',var(--font-sans)] hover:opacity-90",
+        link: "text-foreground underline underline-offset-4 decoration-1 hover:decoration-2",
+        nav: "label-caps text-[0.95rem] font-medium tracking-normal hover:opacity-70",
       },
       size: {
-        default: "h-9 px-4 py-2",
-        sm: "h-8 rounded-md px-3 text-xs",
-        lg: "h-10 rounded-md px-8",
-        icon: "h-9 w-9",
+        default: "h-10 px-5 py-2",
+        sm: "h-8 px-3 text-xs",
+        lg: "h-12 px-8 text-sm",
+        xl: "h-14 px-10 text-base",
+        icon: "h-10 w-10",
+        none: "h-auto p-0",
       },
     },
     defaultVariants: {
