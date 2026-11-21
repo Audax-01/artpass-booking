@@ -1,24 +1,33 @@
 # ArtPass Booking
 
-make website for ticket booking for art musemum payment walls , booking solts,informatin if needed any if u needed add that in that https://cdn.dribbble.com/userupload/46880876/file/711bc8731c3d55e178656c5a130741ec.png?resize=1504x1128&vertical=center make web look like this be in this theme
+A web application for browsing art exhibitions, museums, or events and booking passes/tickets seamlessly.
 
-This project was built with [Lovable](https://lovable.dev).
+## Overview
 
-## Build with Lovable
+**ArtPass Booking** allows users to explore upcoming art events or passes, check availability, reserve bookings, and manage their passes, while giving organizers/admins tools to manage listings and reservations.
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/076d61a0-09c1-5351-9c7a-df34b827cdd9).
+> **Status:** [In Development / Beta / Live] — [Brief one-line summary of what works today]
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+## Key Features
 
-## Development
+- **Browse Passes & Exhibitions:** View available art passes, dates, venues, pricing, and remaining capacity.
+- **Pass Booking & Reservations:** Select pass quantities/dates, enter attendee details, and generate booking confirmations.
+- **User Account & My Passes:** View upcoming, past, or cancelled bookings (if authentication is enabled).
+- **Admin / Organizer Controls:** Create, update, or remove passes/events and inspect bookings (if applicable).
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+## Tech Stack
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
+- **Frontend:** [e.g., React / Next.js / Vue / HTML + CSS + TypeScript]
+- **Backend:** [e.g., Node.js + Express / Next.js API Routes / Django / FastAPI]
+- **Database & ORM:** [e.g., PostgreSQL + Prisma / MongoDB + Mongoose / Supabase]
+- **Payments / Auth (if any):** [e.g., Stripe / Clerk / NextAuth / JWT]
+
+## Project Structure
+
+```text
+artpass-booking/
+├── [src/ or app/]        # Application source code, pages/routes, and components
+├── [public/]            # Static assets and images
+├── [tests/ or __tests/] # Unit and integration tests
+├── .env.example       # Example environment variables
+└── package.json       # Dependencies and scripts (or requirements.txt / pyproject.toml)
