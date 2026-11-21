@@ -1,33 +1,30 @@
 # ArtPass Booking
 
-A web application for browsing art exhibitions, museums, or events and booking passes/tickets seamlessly.
+A modern web application for discovering art exhibitions, museums, and cultural events, and booking passes seamlessly.
 
-## Overview
+**Live Website:** [https://your-artpass-booking-url.com](https://your-artpass-booking-url.com)
 
-**ArtPass Booking** allows users to explore upcoming art events or passes, check availability, reserve bookings, and manage their passes, while giving organizers/admins tools to manage listings and reservations.
+---
 
-> **Status:** [In Development / Beta / Live] — [Brief one-line summary of what works today]
+## Features
 
-## Key Features
-
-- **Browse Passes & Exhibitions:** View available art passes, dates, venues, pricing, and remaining capacity.
-- **Pass Booking & Reservations:** Select pass quantities/dates, enter attendee details, and generate booking confirmations.
-- **User Account & My Passes:** View upcoming, past, or cancelled bookings (if authentication is enabled).
-- **Admin / Organizer Controls:** Create, update, or remove passes/events and inspect bookings (if applicable).
+- **Exhibition & Event Discovery:** Browse upcoming art shows, dates, venues, and pass availability.
+- **Instant Pass Booking:** Select dates, pass tiers, and quantities with real-time booking confirmation.
+- **Booking Management:** View, manage, or cancel active and past passes from a user dashboard.
+- **Organizer / Admin Dashboard:** Create and update exhibitions, manage capacity, and monitor bookings.
 
 ## Tech Stack
 
-- **Frontend:** [e.g., React / Next.js / Vue / HTML + CSS + TypeScript]
-- **Backend:** [e.g., Node.js + Express / Next.js API Routes / Django / FastAPI]
-- **Database & ORM:** [e.g., PostgreSQL + Prisma / MongoDB + Mongoose / Supabase]
-- **Payments / Auth (if any):** [e.g., Stripe / Clerk / NextAuth / JWT]
+- **Frontend:** [e.g., React / Next.js / Tailwind CSS]
+- **Backend:** [e.g., Node.js / Express / Next.js API Routes]
+- **Database:** [e.g., PostgreSQL / MongoDB / Supabase]
+- **Authentication & Payments:** [e.g., NextAuth / Clerk / Stripe]
 
 ## Project Structure
 
 ```text
 artpass-booking/
-├── [src/ or app/]        # Application source code, pages/routes, and components
-├── [public/]            # Static assets and images
-├── [tests/ or __tests/] # Unit and integration tests
-├── .env.example       # Example environment variables
-└── package.json       # Dependencies and scripts (or requirements.txt / pyproject.toml)
+├── src/               # Components, pages/routes, and business logic
+├── public/            # Static images and assets
+├── .env.example       # Template for environment variables
+└── package.json       # Project dependencies and scripts
